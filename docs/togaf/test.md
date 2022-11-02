@@ -1,5 +1,11 @@
+---
+title: markdown example
+sidebarDepth: 2
+
+---
 # Clean Architecuture
 ## URL的使用
+### testsdf
 
 [sfsfsd](http://../test.md "你好啊")
 
@@ -21,7 +27,7 @@
 
 ## 列表
   - 第一章节 sfjs;jfsf
-  sfsfs;lkjf;sfs;fj;sjf;
+  sfsfs;lkjf;sfs;fj;sjf;r
   sfj;lskjf
   as;fj;asfj
   sfj;asfj

@@ -16,17 +16,30 @@ module.exports = {
             }
         ],
         sidebar:[
-            {
-                title: "博客搭建",
-                path: "/togaf",
+        
+            {   
+                sidebarDepth: 2,
+                title: "学习杂项",
+                path: "/togaf/",
                 collapsable: false, // 不折叠
                 children: [
-                    { title: "Markdown使用", path: "/togaf/test" },
+                    { title: "Markdown使用", path: "/togaf/test.md" },
+                    { title: "Markdown使用_例子", path: "/togaf/markdown_study.md"},
                 ],
+            },
+            {
+                title:"togaf",
+                path:"/togaf/",
+                collapsable:false,
+                sidebarDepth:2,
+                children:[
+                    '/togaf/7问TOGAF.md',
+                    '/togaf/test.md'
+
+                       ]
             }
      
         ]
     },
     plugins: ["vuepress-plugin-mermaidjs"]
-    
 }
